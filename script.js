@@ -57,7 +57,7 @@ function showDocumentationMessage(attachmentsList) {
     let documentationMessage = `
     <h2>Generated Documentation Message</h2>
     <p>Documentation Update - ${date}</p>
-    <p>Title/Topic: ${title}</p>
+    <p>Project/Topic: ${title}</p>
     <p>Date: ${date}</p>
     <p>Author: ${author}</p>
     <p>Summary: ${summary}</p>
