@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Documentation Generator</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1>Documentation Generator</h1>
+    <div id="form-container">
+        <form id="documentation-form">
+            <label for="title">Title/Topic:</label>
+            <input type="text" id="title" ><br><br>
+
+            <label for="date">Date:</label>
+            <input type="text" id="date" ><br><br>
+
+            <label for="author">Author:</label>
+            <input type="text" id="author" ><br><br>
+
+            <label for="summary">Summary:</label><br>
+            <textarea id="summary" rows="4" ></textarea><br><br>
+
+            <label for="changes">Changes Made:</label><br>
+            <textarea id="changes" rows="4" ></textarea><br><br>
+
+            <label for="rationale">Rationale (Why you made the changes):</label><br>
+            <textarea id="rationale" rows="4" ></textarea><br><br>
+
+            <label for="attachments">Attachments:</label><br>
+            <input type="file" id="attachments" name="attachments" accept="image/*, video/*, capture=camera" multiple><br><br>
+
+            <label for="next_steps">Next Steps:</label><br>
+            <textarea id="next_steps" rows="4" ></textarea><br><br>
+
+            <label for="additional_notes">Additional Notes:</label><br>
+            <textarea id="additional_notes" rows="4"></textarea><br><br>
+
+            <input type="submit" value="Generate">
+        </form>
+    </div>
+
+    <div id="result-container">
+        <!-- Result display container -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
