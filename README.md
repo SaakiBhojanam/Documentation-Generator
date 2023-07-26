@@ -4,7 +4,7 @@ The Documentation Generator Web App is a simple tool that allows users to create
 
 **Features**
 
-1. User-friendly: The web app presents a user-friendly form with input fields for all necessary documentation details.
+1. User-friendly Form: The web app presents a user-friendly form with input fields for all necessary documentation details.
 
 2. Image and Video Attachments: Users can upload image or video files as attachments to the documentation message.
 
